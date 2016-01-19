@@ -16,7 +16,9 @@ var config= {
         css: true, // CSS output
         scss: true // SCSS output
       },
-      prefix: ".svg--%s",
+      dest: 'sprite', // destination foldeer
+      prefix: '.svg--%s',
+      sprite: 'svg/sprite.svg', //sprite name
       example: true // Build sample page
     }
   }
@@ -26,11 +28,11 @@ var config= {
 gulp.task('sprite-page', function() {
   return gulp.src('svg/**/*.svg')
     .pipe(svgSprite(config))
-    .pipe(gulp.dest('./build'));
+    .pipe(gulp.dest('.'));
 });
 
 gulp.task('sprite-shortcut', function() {
-  return gulp.src('build/symbol/svg/sprite.symbol.svg')
+  return gulp.src('build/sprite/sprite.svg')
     .pipe(rename('sprite.svg'))
     .pipe(gulp.dest('.'));
 });
