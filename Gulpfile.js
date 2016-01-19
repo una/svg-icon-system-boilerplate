@@ -18,7 +18,7 @@ var config= {
       },
       dest: 'sprite', // destination foldeer
       prefix: '.svg--%s',
-      sprite: 'svg/sprite.svg', //sprite name
+      sprite: 'sprite.svg', //sprite name
       example: true // Build sample page
     }
   }
@@ -32,7 +32,7 @@ gulp.task('sprite-page', function() {
 });
 
 gulp.task('sprite-shortcut', function() {
-  return gulp.src('build/sprite/sprite.svg')
+  return gulp.src('sprite/sprite.svg')
     .pipe(rename('sprite.svg'))
     .pipe(gulp.dest('.'));
 });
