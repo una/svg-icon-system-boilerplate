@@ -1,0 +1,32 @@
+{
+  "name": "svg-icon-system-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate icon system implementing SVG sprites and external use pattern",
+  "main": "sprite.svg",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/una/svg-icon-system-boilerplate.git"
+  },
+  "keywords": [
+    "icon",
+    "system",
+    "svg",
+    "icons",
+    "sprite",
+    "use"
+  ],
+  "author": "Una Kravets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/una/svg-icon-system-boilerplate/issues"
+  },
+  "homepage": "https://github.com/una/svg-icon-system-boilerplate#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-svg-sprite": "^1.2.19"
+  }
+}
