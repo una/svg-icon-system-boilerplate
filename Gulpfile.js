@@ -12,10 +12,6 @@ var rename = require('gulp-rename');
 var config= {
   mode: {
     symbol: { // symbol mode to build the SVG
-      render: {
-        css: true, // CSS output
-        scss: true // SCSS output
-      },
       dest: 'sprite', // destination foldeer
       prefix: '.svg--%s',
       sprite: 'sprite.svg', //sprite name
