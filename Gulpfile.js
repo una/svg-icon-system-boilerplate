@@ -9,11 +9,10 @@ var svgSprite = require('gulp-svg-sprite');
 var rename = require('gulp-rename');
 
 // SVG Config
-var config= {
+var config = {
   mode: {
     symbol: { // symbol mode to build the SVG
       dest: 'sprite', // destination foldeer
-      prefix: '.svg--%s',
       sprite: 'sprite.svg', //sprite name
       example: true // Build sample page
     }
