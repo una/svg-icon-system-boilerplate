@@ -19,12 +19,7 @@ var config = {
   },
   svg: {
     xmlDeclaration: false, // strip out the XML attribute
-    doctypeDeclaration: false, // don't include the !DOCTYPE declaration
-    rootAttributes: { // add some attributes to the <svg> tag
-      width: 0,
-      height: 0,
-      style: 'postion: absolute',
-    }
+    doctypeDeclaration: false // don't include the !DOCTYPE declaration
   }
 };
 
