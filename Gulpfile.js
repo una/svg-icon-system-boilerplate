@@ -6,8 +6,6 @@
 
 var gulp = require('gulp');
 var svgSprite = require('gulp-svg-sprite');
-var rename = require('gulp-rename');
-
 // SVG Config
 var config = {
   mode: {
@@ -28,7 +26,6 @@ gulp.task('sprite-page', function() {
 
 gulp.task('sprite-shortcut', function() {
   return gulp.src('sprite/sprite.svg')
-    .pipe(rename('sprite.svg'))
     .pipe(gulp.dest('.'));
 });
 
