@@ -14,6 +14,10 @@ var config = {
       sprite: 'sprite.svg', //sprite name
       example: true // Build sample page
     }
+  },
+  svg: {
+    xmlDeclaration: false, // strip out the XML attribute
+    doctypeDeclaration: false // don't include the !DOCTYPE declaration
   }
 };
 
