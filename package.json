@@ -4,6 +4,7 @@
   "description": "A boilerplate icon system implementing SVG sprites and external use pattern",
   "main": "sprite.svg",
   "scripts": {
+    "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
